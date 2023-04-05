@@ -1,0 +1,84 @@
+ul {
+    list-style-type: none;
+    color: white;
+}
+
+nav {
+    border: 1px solid black;
+    border-top-right-radius: 25px ;
+    border-top-left-radius: 25px;
+    background-color: black;
+}
+
+.head {
+    font-size: 23px;
+}
+
+.head1 {
+    float: right;
+    padding-left: 65px;
+    margin-top: -15px;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: #000;
+}
+
+.mainhead {
+    color: white;
+    font-size: 70px;
+    padding-left: 40px;
+    margin-top: 200px;
+}
+
+p {
+    color: white;
+}
+
+.p {
+    color: white;
+    font-size: 17px;
+    padding-left: 45px;
+}
+
+.p1 {
+    color: white;
+    font-size: 55px;
+    text-align: center;
+}
+
+.learn {
+    border: 1px solid white;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 10px;
+    margin-left: 45px;
+    background-color: white;
+    color: #000;
+}
+
+.ig {
+    margin-left: 45px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+
+}
+
+.ig2 {
+    margin-left: 45px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+
+}
+
+.grid-container  {
+    display: grid;
+    grid-template-columns: auto auto;
+}
