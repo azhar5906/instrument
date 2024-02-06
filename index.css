@@ -25,7 +25,7 @@ li{
     filter: drop-shadow(1px 1px);
     transition: 0.3s;
     transform: translatey(-10px);
-    box-shadow: 0px 2px 0px 0px;
+    text-decoration: underline white;
 }
 ul.a {
     text-decoration: none;
@@ -139,23 +139,30 @@ button {
     font-size: 80px;
 }
 
-.list2 {
+/* .list2 {
     margin-left: 50px;  
-    margin-top: 300px;
+    margin-top: 200px;
 }
+*/
 
 .list3 {
-    margin-left: 300px;
-    margin-top: -150px;
-}
+    margin-left: -550px;
+    margin-top: 0px;
+} 
 
 .img4,.img5 {
     margin-left: 10px;
 }
+.grid-list{
+    display: grid;
+    grid-template-columns: auto auto; 
+    margin-top: 100px;
+    margin-left: 50px;
+}
 
-            /*Responsive Design for mobile phones*/
+      /*Responsive Design for mobile phones*/
 
-@media (max-width: 400px) {
+@media (max-width: 377px) {
     * {
         margin: 0px;
         padding: 0px;
